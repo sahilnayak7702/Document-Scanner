@@ -3,6 +3,8 @@
 ## Overview
 The **Document Scanner** application is designed to scan physical documents using a webcam. The app automatically detects the edges of the document and applies a perspective transformation to generate a well-aligned image of the document. This project is built using Python and OpenCV.
 
+This **Document Scanner** does not use any machine learning models or training datasets. It is based purely on image processing using OpenCV. The workflow consists of basic image transformations, such as grayscale conversion, edge detection, contour detection, and perspective transformation, rather than using pre-trained deep learning models.
+
 ## Features
 - **Real-time Camera Feed**: Displays live feed from your webcam.
 - **Document Detection**: Automatically detects the edges of a document in real-time.
